@@ -1,5 +1,7 @@
 <html lang="en">
 <head>
+    <!-- <script type="text/javascript" src="https://unpkg.com/ical.js@1.5.0/build/ical.js"></script> -->
+    <script src="test.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +9,12 @@
 </head>
 <body>
     <h1>My Calander</h1>
-    <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FChicago&title=Aidan%20Christensen&showDate=1&showPrint=0&mode=WEEK&src=NGhjNThsaG5tbmVta3Yya2lwNnAzYnBqb29lb2F1MzBAaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&src=c2NxN3A4cXZjNnR1NDFpa2M1cW9vZmo1cTBnb2o2c3ZAaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&color=%23ccb800&color=%2328cc00" style="border:solid 1px #777" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
+    <!-- <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FChicago&title=Aidan%20Christensen&showDate=1&showPrint=0&mode=WEEK&src=NGhjNThsaG5tbmVta3Yya2lwNnAzYnBqb29lb2F1MzBAaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&src=c2NxN3A4cXZjNnR1NDFpa2M1cW9vZmo1cTBnb2o2c3ZAaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&color=%23ccb800&color=%2328cc00" style="border:solid 1px #777" width="100%" height="600" frameborder="0" scrolling="no"></iframe> -->
+    <iframe id="open-web-calendar" 
+    style="background:url('https://raw.githubusercontent.com/niccokunzmann/open-web-calendar/master/static/img/loaders/circular-loader.gif') center center no-repeat;"
+    src="https://open-web-calendar.herokuapp.com/calendar.html?url=https%3A%2F%2Fp60-caldav.icloud.com%2Fpublished%2F2%2FODIwMTM3MTA3ODIwMTM3MdvXD6L-PnohlMX1UwkfaWgLIQCkSq93iJrrl_eBIBIR&amp;url=https%3A%2F%2Fp60-caldav.icloud.com%2Fpublished%2F2%2FODIwMTM3MTA3ODIwMTM3MdvXD6L-PnohlMX1UwkfaWi2PDDBxBaoHDAhGIhbN06iSGlsOUnbmeHrLjpa0cuwL6wRf_mpZB9LZ80iM1hDWBA&amp;url=https%3A%2F%2Fp60-caldav.icloud.com%2Fpublished%2F2%2FODIwMTM3MTA3ODIwMTM3MdvXD6L-PnohlMX1UwkfaWgcIlHUhIHAK2qutKEHfPNy1w5IuQ65g5CyPzTD8WcigATEtv9FBUf7wqly5ZHXUUo&amp;url=https%3A%2F%2Fp60-caldav.icloud.com%2Fpublished%2F2%2FODIwMTM3MTA3ODIwMTM3MdvXD6L-PnohlMX1UwkfaWjVC8HNcRfoUTXvHHR50gKn5N8tx0Jpmc8he5VhPEHsoM1Tuh27jsumfqOTUEbtqq8"
+    sandbox="allow-scripts allow-same-origin allow-top-navigation"
+    allowTransparency="true" scrolling="no" 
+    frameborder="0" height="600px" width="100%"></iframe>
 </body>
 </html>
